@@ -4,7 +4,10 @@
     margin: 0px;
 }
 
-.navbar {}
+.navbar_btn {
+    border: none;
+    background: transparent;
+}
 
 /* Home page css */
 .home_container {
@@ -105,14 +108,24 @@
     text-align: center;
     margin: 50px auto 25px auto;
 }
-.card{
+
+.card {
     text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.card_img{
+
+.card_img {
     height: 50px;
     width: 50px;
     margin: 10px auto;
 }
+
+
+
+
+
+
+/* contact us page */
 
 
 
@@ -150,5 +163,9 @@
 
 
     /* services page media query */
+    .card {
+        margin: 10px 0px;
+
+    }
 
 }
