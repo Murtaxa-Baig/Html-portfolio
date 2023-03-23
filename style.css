@@ -3,6 +3,11 @@
     padding: 0px;
     margin: 0px;
 }
+.navbar{
+    background-color: aqua !important;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
 
 .navbar_btn {
     border: none;
@@ -11,6 +16,7 @@
 
 /* Home page css */
 .home_container {
+    margin-top: 50px;
     height: auto;
     width: 100%;
     background-color: aqua;
